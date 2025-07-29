@@ -4,7 +4,7 @@ session_start();
 
 $title = "search";
 
-include "../admin/config.php";
+include "../config.php";
 
 
 include './sidebar.php';

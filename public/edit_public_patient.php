@@ -2,15 +2,15 @@
 
 $title = "Edit";
 
-include '../admin/config.php';
+include '../config.php';
 
 ?>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../admin/assets/css/theme.bundle.css" id="stylesheetLTR" />
-    <link rel="icon" href="../admin/assets/favicon/favicon.ico" />
+    <link rel="stylesheet" href="../assets/css/theme.bundle.css" id="stylesheetLTR" />
+    <link rel="icon" href="../assets/favicon/favicon.ico" />
     <title><?php echo "$title"; ?></title>
 </head>
 
@@ -197,7 +197,7 @@ include '../admin/config.php';
 </body>
 
 <!-- Theme JS -->
-<script src="../admin/assets/js/theme.bundle.js"></script>
+<script src="../assets/js/theme.bundle.js"></script>
 
 <script>
     $('#insert').delay(1000).hide(0);

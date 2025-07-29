@@ -78,7 +78,7 @@ if (!isset($_SESSION['pemail'])) {
         }
     </script>
     <!-- Favicon -->
-    <link rel="icon" href="../admin/assets/favicon/favicon.ico" />
+    <link rel="icon" href="../assets/favicon/favicon.ico" />
 
     <!-- Demo script -->
     <script>

@@ -27,7 +27,7 @@ if (isset($_POST["add_user"])) {
         $file_name = $_FILES['fileToUpload']['name'];
         $file_tmp = $_FILES['fileToUpload']['tmp_name'];
 
-        $target = "./assets/admin_images/" . $file_name;
+        $target = "../assets/admin_images/" . $file_name;
         if (empty($errors) == true) {
             move_uploaded_file($file_tmp, $target);
         } else {
@@ -61,8 +61,8 @@ if (isset($_POST["add_user"])) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/theme.bundle.css" id="stylesheetLTR" />
-    <link rel="icon" href="assets/favicon/favicon.ico" />
+    <link rel="stylesheet" href="../assets/css/theme.bundle.css" id="stylesheetLTR" />
+    <link rel="icon" href="../assets/favicon/favicon.ico" />
     <title><?php echo "$title"; ?></title>
 </head>
 
@@ -171,7 +171,7 @@ if (isset($_POST["add_user"])) {
 </body>
 
 <!-- Theme JS -->
-<script src="assets/js/theme.bundle.js"></script>
+<script src="../assets/js/theme.bundle.js"></script>
 
 <script>
     function showpass() {

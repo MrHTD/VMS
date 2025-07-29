@@ -16,8 +16,8 @@ if (isset($_SESSION['email']) AND ($_SESSION["user_role"] == 1)) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/theme.bundle.css" id="stylesheetLTR" />
-    <link rel="icon" href="assets/favicon/favicon.ico" />
+    <link rel="stylesheet" href="../assets/css/theme.bundle.css" id="stylesheetLTR" />
+    <link rel="icon" href="../assets/favicon/favicon.ico" />
     <title><?php echo "$title"; ?></title>
 </head>
 
@@ -125,5 +125,5 @@ if (isset($_SESSION['email']) AND ($_SESSION["user_role"] == 1)) {
             ?>
         </div> <!-- / .row -->
     </main> <!-- / main -->
-    <script src="assets/js/theme.bundle.js"></script>
+    <script src="../assets/js/theme.bundle.js"></script>
 </body>

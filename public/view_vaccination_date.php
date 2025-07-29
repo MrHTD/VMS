@@ -6,7 +6,7 @@ $title = "Vaccine Date";
 
 session_start();
 
-include "../admin/config.php";
+include "../config.php";
 
 
 if ($_SESSION["role"] == 2) {

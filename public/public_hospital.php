@@ -4,7 +4,7 @@ $page = "hospital";
 $show = 'hospital';
 $title = "Hospital";
 
-include "../admin/config.php";
+include "../config.php";
 
 
 session_start();

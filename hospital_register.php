@@ -8,8 +8,8 @@ include "./config.php";
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./admin/assets/css/theme.bundle.css" id="stylesheetLTR" />
-    <link rel="icon" href="./admin/assets/favicon/favicon.ico" />
+    <link rel="stylesheet" href="../assets/css/theme.bundle.css" id="stylesheetLTR" />
+    <link rel="icon" href="../assets/favicon/favicon.ico" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <title><?php echo "$title"; ?></title>
 </head>
@@ -182,7 +182,7 @@ include "./config.php";
         </div> <!-- / .row -->
     </main> <!-- / main -->
 
-    <script src="./admin/assets/js/theme.bundle.js"></script>
+    <script src="../assets/js/theme.bundle.js"></script>
 </body>
 
 </html>

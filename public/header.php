@@ -17,7 +17,7 @@ if (!isset($_SESSION['pemail'])) {
     <meta content="Webinning" name="author" />
 
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="../admin/assets/css/theme.bundle.css" id="stylesheetLTR" />
+    <link rel="stylesheet" href="../assets/css/theme.bundle.css" id="stylesheetLTR" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&amp;display=swap">
     <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&amp;display=swap">
@@ -97,7 +97,7 @@ if (!isset($_SESSION['pemail'])) {
         }
     </script>
     <!-- Favicon -->
-    <link rel="icon" href="../admin/assets/favicon/favicon.ico" />
+    <link rel="icon" href="../assets/favicon/favicon.ico" />
 
     <!-- Demo script -->
     <script>
@@ -129,4 +129,4 @@ if (!isset($_SESSION['pemail'])) {
     </script>
 </head>
 <!-- Theme JS -->
-<script src="../admin/assets/js/theme.bundle.js"></script>
+<script src="../assets/js/theme.bundle.js"></script>

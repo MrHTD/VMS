@@ -7,7 +7,7 @@ $title = "Home";
 <head>
   <title><?php echo "$title"; ?></title>
   <!-- Favicon -->
-  <link rel="icon" href="./admin/assets/favicon/favicon.ico" />
+  <link rel="icon" href="./assets/favicon/favicon.ico" />
   <style>
     body::-webkit-scrollbar {
       width: 12px;
@@ -34,7 +34,7 @@ $title = "Home";
   <?php include 'header.php'; ?>
 
   <div class="bg-size-cover bg-position-center bg-repeat-no-repeat vh-100 position-relative me-n4"
-  style="background-image: url(./admin/assets/covers/img1.jpg);"></div>
+  style="background-image: url(assets/covers/img1.jpg);"></div>
   <div class="position-absolute" style="top: 38%;left: 6%;">
     <div class="text-center text-dark text-uppercase">
       <h1 class="display-3" style="font-weight: 900;">Hurry! Get Vaccinated Today</h1>

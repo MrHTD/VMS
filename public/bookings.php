@@ -3,7 +3,7 @@
 $page = "booking";
 $show = 'booking';
 
-include "../admin/config.php";
+include "../config.php";
 
 
 session_start();
@@ -26,8 +26,8 @@ if ($_SESSION["role"] == 2) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../admin/assets/css/theme.bundle.css" id="stylesheetLTR" />
-    <link rel="icon" href="../admin/assets/favicon/favicon.ico" />
+    <link rel="stylesheet" href="../assets/css/theme.bundle.css" id="stylesheetLTR" />
+    <link rel="icon" href="../assets/favicon/favicon.ico" />
     <title><?php echo "$title"; ?></title>
 </head>
 
@@ -215,7 +215,7 @@ if ($_SESSION["role"] == 2) {
         </div> <!-- / .container-fluid -->
     </main> <!-- / main -->
     <!-- Theme JS -->
-    <script src="../admin/assets/js/theme.bundle.js"></script>
+    <script src="../assets/js/theme.bundle.js"></script>
 
 </body>
 

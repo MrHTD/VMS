@@ -191,5 +191,5 @@ include_once 'header.php';
         </div> <!-- / .row -->
     </main> <!-- / main -->
     <!-- Theme JS -->
-    <script src="./assets/js/theme.bundle.js"></script>
+    <script src="./../assets/js/theme.bundle.js"></script>
 </body>

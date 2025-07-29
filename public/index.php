@@ -1,6 +1,6 @@
 <?php
 
-include "../admin/config.php";
+include "../config.php";
 
 session_start();
 
@@ -26,8 +26,8 @@ include_once 'header.php';
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../admin/assets/css/theme.bundle.css" id="stylesheetLTR" />
-    <link rel="icon" href="../admin/assets/favicon/favicon.ico" />
+    <link rel="stylesheet" href="../assets/css/theme.bundle.css" id="stylesheetLTR" />
+    <link rel="icon" href="../admin/../assets/favicon/favicon.ico" />
     <title><?php echo "$title"; ?></title>
 </head>
 

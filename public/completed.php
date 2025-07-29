@@ -6,7 +6,7 @@ if(!isset($_SERVER['HTTP_REFERER'])){
     exit;
 }
 
-include '../admin/config.php';
+include '../config.php';
 
 if (isset($_GET['s']) == 'Completed') {
     mysqli_query($conn, "UPDATE `appointment_table` SET `status_id`= 4 WHERE patient_id = '$_GET[sid]' ");

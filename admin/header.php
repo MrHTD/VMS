@@ -20,7 +20,7 @@ if (!isset($_SESSION["email"])) {
     <meta content="Webinning" name="author" />
 
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="assets/css/theme.bundle.css" id="stylesheetLTR" />
+    <link rel="stylesheet" href="../assets/css/theme.bundle.css" id="stylesheetLTR" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&amp;display=swap">
@@ -101,7 +101,7 @@ if (!isset($_SESSION["email"])) {
         }
     </script>
     <!-- Favicon -->
-    <link rel="icon" href="assets/favicon/favicon.ico" />
+    <link rel="icon" href="../assets/favicon/favicon.ico" />
 
     <!-- Demo script -->
     <script>
@@ -133,4 +133,4 @@ if (!isset($_SESSION["email"])) {
     </script>
 </head>
     <!-- Theme JS -->
-    <script src="assets/js/theme.bundle.js"></script>
+    <script src="../assets/js/theme.bundle.js"></script>

@@ -7,8 +7,8 @@ $title = "Add Vaccine";
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/theme.bundle.css" id="stylesheetLTR" />
-    <link rel="icon" href="assets/favicon/favicon.ico" />
+    <link rel="stylesheet" href="../assets/css/theme.bundle.css" id="stylesheetLTR" />
+    <link rel="icon" href="../assets/favicon/favicon.ico" />
     <title><?php echo "$title"; ?></title>
 </head>
 
@@ -178,7 +178,7 @@ $title = "Add Vaccine";
         </div> <!-- / .row -->
     </main> <!-- / main -->
 
-    <script src="assets/js/theme.bundle.js"></script>
+    <script src="../assets/js/theme.bundle.js"></script>
 </body>
 
 </html>

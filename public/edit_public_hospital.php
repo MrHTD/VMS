@@ -2,7 +2,7 @@
 
 $title = "Edit";
 
-include '../admin/config.php';
+include '../config.php';
 
 include 'header.php';
 
@@ -191,7 +191,7 @@ include 'header.php';
         </div> <!-- / .row -->
     </main> <!-- / main -->
     <!-- Theme JS -->
-    <script src="../admin/assets/js/theme.bundle.js"></script>
+    <script src="../assets/js/theme.bundle.js"></script>
 </body>
 
 <script>

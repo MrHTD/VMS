@@ -7,8 +7,8 @@ $title = "Patient Register";
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./admin/assets/css/theme.bundle.css" id="stylesheetLTR" />
-    <link rel="icon" href="./admin/assets/favicon/favicon.ico" />
+    <link rel="stylesheet" href="../assets/css/theme.bundle.css" id="stylesheetLTR" />
+    <link rel="icon" href="../assets/favicon/favicon.ico" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <title><?php echo "$title"; ?></title>
 </head>
@@ -241,12 +241,12 @@ $title = "Patient Register";
             <div class="col-md-5 col-lg-6 d-none d-lg-block">
 
                 <!-- Image -->
-                <div class="bg-size-cover bg-position-right bg-repeat-no-repeat overlay overlay-dark overlay-50 vh-100 me-n4" style="background-image: url(./admin/assets/covers/img1.jpg);"></div>
+                <div class="bg-size-cover bg-position-right bg-repeat-no-repeat overlay overlay-dark overlay-50 vh-100 me-n4" style="background-image: url(assets/covers/img1.jpg);"></div>
             </div>
         </div> <!-- / .row -->
     </main> <!-- / main -->
 
-    <script src="./admin/assets/js/theme.bundle.js"></script>
+    <script src="../assets/js/theme.bundle.js"></script>
 </body>
 
 </html>

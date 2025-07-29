@@ -16,7 +16,7 @@ if (isset($_POST['upd_user'])) {
         $file_name = $_FILES['new_img']['name'];
         $file_tmp = $_FILES['new_img']['tmp_name'];
 
-        $target = "./assets/admin_images/" . $file_name;
+        $target = "../assets/admin_images/" . $file_name;
         if (empty($errors) == true) {
             move_uploaded_file($file_tmp, $target);
         } else {
@@ -46,8 +46,8 @@ if (isset($_POST['upd_user'])) {
     <title><?php echo "$title"; ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/theme.bundle.css" id="stylesheetLTR" />
-    <link rel="icon" href="assets/favicon/favicon.ico" />
+    <link rel="stylesheet" href="../assets/css/theme.bundle.css" id="stylesheetLTR" />
+    <link rel="icon" href="../assets/favicon/favicon.ico" />
 </head>
 
 <body class="bg-light-green">
@@ -141,7 +141,7 @@ if (isset($_POST['upd_user'])) {
                                         </label>
 
                                         <!-- Input -->
-                                        <img src="./assets/admin_images/<?php echo $row['user_img'] ?>" class="img-fluid rounded">
+                                        <img src="../assets/admin_images/<?php echo $row['user_img'] ?>" class="img-fluid rounded">
                                         <input type="file" name="new_img" class="form-control">
                                         <input type="hidden" name="old_img" value="<?php echo $row['user_img'] ?>">
                                     </div>
@@ -185,7 +185,7 @@ if (isset($_POST['upd_user'])) {
 </body>
 
 <!-- Theme JS -->
-<script src="assets/js/theme.bundle.js"></script>
+<script src="../assets/js/theme.bundle.js"></script>
 
 <script>
     $('#insert').delay(1000).hide(0);

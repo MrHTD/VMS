@@ -171,7 +171,7 @@ include_once 'header.php';
             </div>
             <?php if (isset($_POST['upd_user'])) {
 
-                include "../admin/config.php";
+                include "../config.php";
 
                 $fullname = mysqli_real_escape_string($conn, $_POST['fullname']);
                 $username = mysqli_real_escape_string($conn, $_POST['username']);
@@ -193,7 +193,7 @@ include_once 'header.php';
 </body>
 
 <!-- Theme JS -->
-<script src="../admin/assets/js/theme.bundle.js"></script>
+<script src="../assets/js/theme.bundle.js"></script>
 
 <script>
     $('#insert').delay(1000).hide(0);

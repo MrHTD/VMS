@@ -3,7 +3,7 @@
 $page = "areport";
 $show = 'ap';
 
-include "../admin/config.php";
+include "../config.php";
 
 session_start();
 

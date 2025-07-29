@@ -6,7 +6,7 @@ $title = "appointment";
 
 session_start();
 
-include "../admin/config.php";
+include "../config.php";
 
 include 'header.php';
 
