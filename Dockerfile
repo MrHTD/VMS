@@ -1,4 +1,4 @@
-From php:8.4-cli as builder
+FROM php:8.4-cli as builder
 
 WORKDIR /app
 
@@ -6,7 +6,7 @@ COPY . .
 
 RUN apt-get update && apt-get install -y unzip git curl
 
-From php:8.4-cli
+FROM php:8.4-cli
 
 # Enable Apache mod_rewrite if needed
 RUN a2enmod rewrite
