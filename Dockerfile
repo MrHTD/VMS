@@ -4,8 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN apt-get update && apt-get install -y unzip git curl
-
 FROM php:8.4-apache
 
 # Enable Apache mod_rewrite if needed
