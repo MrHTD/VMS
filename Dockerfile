@@ -6,11 +6,10 @@ COPY . .
 
 RUN apt-get update && apt-get install -y unzip git curl
 
-FROM php:8.4-cli
+FROM php:8.4-apache
 
 # Enable Apache mod_rewrite if needed
 RUN a2enmod rewrite
-RUN apt-get update && apt-get install -y apache2 libapache2-mod-php
 
 # Set working directory
 WORKDIR /var/www/html
